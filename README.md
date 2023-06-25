@@ -12,5 +12,7 @@ The dataset is downloaded from Yahoo Finance. This model is applied for timefram
 * Introduction
 * What is ARIMA model
 * Determine ARIMA(p,d,q) parameters
-    * 
+   - Check stationary and make time series stationary
+   - Determine AR(p), MA(q) by ACF, PACF
+   - Determine AP(p), MA(q), I(d) by Auto ARIMA
 * Implement ARIMA(p,d,q) models
